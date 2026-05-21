@@ -38,7 +38,7 @@ let TIR_MIN = 30, TIR_MAX = 340; // recomputed from data by fitScale()
 
 // Strategic midpoints
 const TRL_MID = 5; // vertical quadrant divider fixed at TRL 5
-const TIR_MID = 60;
+const TIR_MID = 50;
 
 const toX = trl => PAD.left + ((trl - TRL_MIN) / (TRL_MAX - TRL_MIN)) * plotW;
 // Piecewise Y-scale: TIR_MID is the visual midpoint; halves resolve MIN→MID and MID→MAX.
